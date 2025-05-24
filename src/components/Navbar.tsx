@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Menu, X, User, Briefcase, Award } from 'lucide-react';
+import { User3D, Briefcase3D, Award3D, FileText } from 'lucide-react';
 
 const navItems = [
-  { name: 'About Me', path: '/', icon: <User size={18} /> },
-  { name: 'Projects', path: '/projects', icon: <Briefcase size={18} /> },
-  { name: 'Certifications', path: '/certifications', icon: <Award size={18} /> },
+  { name: 'About Me', path: '/', icon: <User3D size={18} /> },
+  { name: 'Projects', path: '/projects', icon: <Briefcase3D size={18} /> },
+  { name: 'Certifications', path: '/certifications', icon: <Award3D size={18} /> },
+  { name: 'Resume', path: '/resume', icon: <FileText size={18} /> },
 ];
 
 export default function Navbar() {
@@ -28,7 +29,6 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    // Close mobile menu when route changes
     setIsMenuOpen(false);
   }, [location]);
 
@@ -46,7 +46,6 @@ export default function Navbar() {
             </motion.div>
           </NavLink>
 
-          {/* Desktop Navigation */}
           <ul className="hidden md:flex items-center space-x-1">
             {navItems.map((item) => (
               <li key={item.path}>
@@ -56,7 +55,7 @@ export default function Navbar() {
                     `relative px-4 py-2 rounded-lg font-medium flex items-center gap-2 transition-all duration-200 ${
                       isActive 
                         ? 'text-primary-700 bg-primary-100/50' 
-                        : 'text-gray-700 hover:text-primary-700 hover:bg-gray-100/50'
+                        : 'text-secondary-700 hover:text-primary-700 hover:bg-primary-100/50'
                     }`
                   }
                 >
@@ -67,9 +66,8 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* Mobile Menu Button */}
           <button 
-            className="md:hidden text-gray-700 p-1" 
+            className="md:hidden text-secondary-700 p-1" 
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
           >
@@ -78,7 +76,6 @@ export default function Navbar() {
         </nav>
       </div>
 
-      {/* Mobile Navigation */}
       {isMenuOpen && (
         <motion.div 
           className="md:hidden glass-card m-4 rounded-xl overflow-hidden shadow-xl"
@@ -96,7 +93,7 @@ export default function Navbar() {
                     `block px-6 py-3 font-medium flex items-center gap-3 ${
                       isActive 
                         ? 'text-primary-700 bg-primary-100/50' 
-                        : 'text-gray-700 hover:text-primary-700 hover:bg-gray-100/50'
+                        : 'text-secondary-700 hover:text-primary-700 hover:bg-primary-100/50'
                     }`
                   }
                   onClick={() => setIsMenuOpen(false)}

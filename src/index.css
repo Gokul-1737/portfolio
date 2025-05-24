@@ -10,7 +10,7 @@
   }
   
   body {
-    @apply font-sans text-gray-800 bg-gradient-to-br from-primary-100/30 to-secondary-100/30 min-h-screen;
+    @apply font-sans text-secondary-800 bg-gradient-to-br from-primary-100/30 to-secondary-100/30 min-h-screen;
     background-attachment: fixed;
   }
 }
@@ -37,19 +37,19 @@
   }
   
   .btn-outline {
-    @apply border border-gray-300 hover:bg-gray-100 active:bg-gray-200;
+    @apply border border-secondary-300 hover:bg-secondary-100 active:bg-secondary-200;
   }
   
   .heading-1 {
-    @apply font-display text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl;
+    @apply font-display text-4xl font-bold text-secondary-900 md:text-5xl lg:text-6xl;
   }
   
   .heading-2 {
-    @apply font-display text-3xl font-bold text-gray-900 md:text-4xl;
+    @apply font-display text-3xl font-bold text-secondary-900 md:text-4xl;
   }
   
   .heading-3 {
-    @apply font-display text-2xl font-bold text-gray-900 md:text-3xl;
+    @apply font-display text-2xl font-bold text-secondary-900 md:text-3xl;
   }
   
   .section {

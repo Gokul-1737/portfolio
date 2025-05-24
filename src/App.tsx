@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
 import CertificationsPage from './pages/CertificationsPage';
+import ResumePage from './pages/ResumePage';
 
 function App() {
   const location = useLocation();
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/certifications" element={<CertificationsPage />} />
+          <Route path="/resume" element={<ResumePage />} />
         </Routes>
       </AnimatePresence>
     </Layout>

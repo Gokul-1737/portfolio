@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { User3D, Briefcase3D, Award3D, FileText } from 'lucide-react';
+import { User as User3D, Briefcase as Briefcase3D, Award as Award3D, FileText } from 'lucide-react';
 
 const navItems = [
   { name: 'About Me', path: '/', icon: <User3D size={18} /> },

@@ -66,7 +66,7 @@ export default function AboutPage() {
         <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
           <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white/50 shadow-xl flex-shrink-0">
             <img 
-              src="https://res.cloudinary.com/dpkkna5db/image/upload/v1748184593/WhatsApp_Image_2025-05-15_at_12.34.50_430c0c37_qu1dkc.jpg" 
+              src="https://res.cloudinary.com/dpkkna5db/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1748184593/WhatsApp_Image_2025-05-15_at_12.34.50_430c0c37_qu1dkc.jpg" 
               alt="Profile" 
               className="w-full h-full object-cover"
             />

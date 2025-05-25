@@ -32,8 +32,8 @@ const personalInfo = {
   location: "dindigul",
   email: "mahendrangokul72@gmail.com",
   phone: "+91 9361043730",
-  github: "https://github.com/Gokul-1737",
-  linkedin: "https://www.linkedin.com/in/m-gokul-690633330/",
+  github: "github.com/Gokul-1737",
+  linkedin: "www.linkedin.com/in/m-gokul-690633330/",
   bio: "Passionate Full Stack Developer with 1+ years of experience building modern web applications. Focused on creating elegant solutions that deliver exceptional user experiences. Dedicated to continuous learning and staying current with emerging technologies."
 };
 

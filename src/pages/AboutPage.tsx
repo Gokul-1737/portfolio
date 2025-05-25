@@ -32,17 +32,17 @@ const personalInfo = {
   location: "dindigul",
   email: "mahendrangokul72@gmail.com",
   phone: "+91 9361043730",
-  github: "github.com/johndoe",
-  linkedin: "linkedin.com/in/johndoe",
-  bio: "Passionate Full Stack Developer with 5+ years of experience building modern web applications. Focused on creating elegant solutions that deliver exceptional user experiences. Dedicated to continuous learning and staying current with emerging technologies."
+  github: "https://github.com/Gokul-1737",
+  linkedin: "https://www.linkedin.com/in/m-gokul-690633330/",
+  bio: "Passionate Full Stack Developer with 1+ years of experience building modern web applications. Focused on creating elegant solutions that deliver exceptional user experiences. Dedicated to continuous learning and staying current with emerging technologies."
 };
 
 const skills = {
   technical: [
-    "JavaScript", "TypeScript", "React", "Node.js", 
-    "Express", "Next.js", "GraphQL", "MongoDB", 
-    "PostgreSQL", "AWS", "Docker", "CI/CD", 
-    "Tailwind CSS", "Responsive Design"
+    "JavaScript", "Html", "css",
+    "Express", "MongoDB", 
+    "PostgreSQL", "AWS", "CI/CD", 
+    "Tailwind CSS", "Responsive Design", "figma"
   ],
   soft: [
     "Problem Solving", "Communication", "Team Collaboration", 

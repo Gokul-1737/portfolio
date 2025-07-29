@@ -32,7 +32,7 @@ const projects = [
     title: "Subscription Maintenance",
     description: "A full-featured e-commerce platform with product management, cart functionality, user authentication, and payment processing.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe"],
-    demoUrl: "https://portfolio-ten-ashy-14.vercel.app/",
+    demoUrl: "https://sub-keeper.vercel.app/",
     githubUrl: "https://github.com/Gokul-1737/sub-keeper.git",
     imageUrl: "https://images.pexels.com/photos/6956302/pexels-photo-6956302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },

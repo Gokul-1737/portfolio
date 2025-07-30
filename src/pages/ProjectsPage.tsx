@@ -31,10 +31,10 @@ const projects = [
     id: 1,
     title: "Subscription Maintenance",
     description: "The web should maintains the subscription of your, It has shoes the all subscription as you applied, that has inactive state or expired state.  ",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe"],
+    technologies: ["React", "Node.js", "Express", "supabase", "Redux", "Stripe"],
     demoUrl: "https://sub-kepper.vercel.app/",
     githubUrl: "https://github.com/Gokul-1737/sub-kepper.git",
-    imageUrl: "https://images.pexels.com/photos/6956302/pexels-photo-6956302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    imageUrl: "https://res.cloudinary.com/dpkkna5db/image/upload/v1753898441/Screenshot_2025-07-30_232323_agu07s.png"
   },
   {
     id: 2,

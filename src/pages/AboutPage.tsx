@@ -93,7 +93,7 @@ export default function AboutPage() {
             
             <div className="flex gap-3 mb-6 justify-center md:justify-start">
               <a 
-                href={"https://github.com/Gokul-1737"}
+                href="https://github.com/Gokul-1737"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline flex items-center gap-2"
@@ -102,7 +102,7 @@ export default function AboutPage() {
                 <span>GitHub</span>
               </a>
               <a 
-                href={"https://www.linkedin.com/in/m-gokul-690633330/"}
+                href="https://www.linkedin.com/in/m-gokul-690633330/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline flex items-center gap-2"

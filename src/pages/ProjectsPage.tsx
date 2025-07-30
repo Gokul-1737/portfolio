@@ -30,10 +30,10 @@ const projects = [
   {
     id: 1,
     title: "Subscription Maintenance",
-    description: "A full-featured e-commerce platform with product management, cart functionality, user authentication, and payment processing.",
+    description: "The web should maintains the subscription of your, It has shoes the all subscription as you applied, that has inactive state or expired state.  ",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe"],
-    demoUrl: "https://sub-keeper.vercel.app/",
-    githubUrl: "https://github.com/Gokul-1737/sub-keeper.git",
+    demoUrl: "https://sub-kepper.vercel.app/",
+    githubUrl: "https://github.com/Gokul-1737/sub-kepper.git",
     imageUrl: "https://images.pexels.com/photos/6956302/pexels-photo-6956302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
